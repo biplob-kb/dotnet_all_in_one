@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "Server=192.168.0.58; Database=AuthDB; User Id=sa; Password=123121bB; Trusted_Connection=False; TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o "Models/Entities" -c "AuthDbContext" --context-dir "DbContexts" --table Users --force
